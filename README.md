@@ -20,4 +20,6 @@ _All authors belong to the [Navigation Systems](https://www.dlr.de/kn/desktopdef
 ## 1. Berlin dataset
 ### 1.1 Sensor setup
 The data collection platform used for the Berlin dataset, is equipped with the following sensors:
-- VLP-32 LiDAR ()
+- [Velodyne VLP-32c](https://icave2.cse.buffalo.edu/resources/sensor-modeling/VLP32CManual.pdf) LiDAR: 200m measurement range, 360º HFOV, 40º VFOV, 10Hz recording rate
+- [Velodyne VLP-16](https://velodynelidar.com/wp-content/uploads/2019/12/63-9243-Rev-E-VLP-16-User-Manual.pdf) LiDAR: 100m measurement range, 360º HFOV, 30º VFOV, 10 Hz recording rate
+- Sick SCAN 
