@@ -34,7 +34,25 @@ The extrinsic calibration's matrix between the different sensors with respect to
   - GNSS data (nav_msgs/Odometry): ```/gnss_pose```
   - VLP-32c (sensor_msgs/PointCloud2): ```/VLP32/velodyne_points```
   - VLP-16 (sensor_msgs/PointCloud2): ```/VLP16/velodyne_points```
-  - SICK MRS6000 (sensor_msgs/PointCloud2): ```/scan```
+  - SICK MRS6000 (sensor_msgs/PointCloud2): ```/cloud```
   - Zed2i Stereocamera:
-     - fsdf
+     - Left camera image _(sensor_msgs/CompressedImage)_: ```/zed2i/zed_node/left/image_rect_color/compressed```
+     - Right camera image _(sensor_msgs/CompressedImage)_: ```/zed2i/zed_node/right/image_rect_color/compressed```
+     - Odom _(nav_msgs/Odometry)_: ```/zed2i/zed_node/odom```
+     - Left camera info _(sensor_msgs/CameraInfo)_: ```/zed2i/zed_node/left/camera_info```
+     - Right camear info _(sensor_msgs/CameraInfo)_: ```/zed2i/zed_node/right/camera_info```
   - IMU: ```/IMU02/imu/data```
+ 
+### 1.2 Dataset 1: 191
+**Brief**: The XXX dataset is recorded aroun xxxx.
+
+**General information**:
+| Date of Recording | Start Time (UTC) | End Time (UTC) | Total Size | Sensors | Download |
+| ----------------- | ----------------- | --------------- | ---------- | ------- | -------- |
+| 2023-07-11        | 08:00 AM          | 08:30 AM        | 67.5 GB     | GNSS/3xLiDAR/IMU/Stereocamera       | [Download](link) |
+
+
+## 2. Acknowledgment
+
+Thanks to my cousin
+
