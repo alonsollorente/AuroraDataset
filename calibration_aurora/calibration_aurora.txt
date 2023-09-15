@@ -1,0 +1,48 @@
+##########################################################################
+#                            Extrinsic Parameters                          #
+##########################################################################
+# This file contains extrinsic parameter values for the sensors in the     #
+# AuroraDataset. Extrinsic parameters describe the sensor's position and   #
+# orientation in relation to a common reference frame.                     #
+#                                                                          #
+# Sensor Information:                                                      #
+# - LiDAR: Extrinsic parameters defining the LiDAR sensor's position and   #
+#   orientation relative to the reference frame.                           #
+# - Stereocamera: Parameters detailing the stereocamera's spatial relation #
+#   to the reference frame.                                                #
+# - IMU (Inertial Measurement Unit): Extrinsic parameters specifying the   #
+#   IMU's mounting position and orientation with respect to the reference  #
+#   frame.                                                                 #
+# - GNSS (Global Navigation Satellite System) Antenna: Parameters that     #
+#   define the GNSS antenna's location and orientation relative to the     #
+#   reference frame.                                                       #
+#                                                                          #
+# Each section below will contain specific extrinsic parameter values for  #
+# each sensor. All distances are in meters.                                #
+##########################################################################
+
+
+
+## VLP-32
+# Extrinsic to [IMU]
+
+extrinsic_T: [ -0.04, 0.0, 0.625]
+extrinsic_R: [1.0, 0.0, 0.0,
+              0.0, 1.0, 0.0,
+              0.0, 0.0, 1.0]
+              
+## VLP-16
+# Extrinsic to [IMU]
+
+extrinsic_T: [ 0.28, 0.0, -0.525]
+extrinsic_R: [0.0, 0.0, 1.0,
+              0.0, 1.0, 0.0,
+              -1.0, 0.0, 0.0]
+               
+## Zed2i Stereocamera
+## Extrinsic to [VLP-32]
+
+extrinsic_T: [ 0.133973, 0.0515801 -0.0924953]
+extrinsic_R: [9.99999968e-01, -2.01436910e-04, -1.50472476e-04,
+ 	     2.01440663e-04, 9.99999979e-01, 2.49244069e-05,
+ 	     1.50467452e-04, -2.49547174e-05, 9.99999988e-01]
