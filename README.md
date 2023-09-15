@@ -30,7 +30,7 @@ The data collection platform used for the Berlin dataset, is equipped with the f
 <img src="img/sensor_setup_aurora.PNG" width="945" height="700">
 
 ### Extrinsic parameters and ROSBAG general information
-The extrinsic calibration's matrix between the different sensors with respect to the IMU, can be found via [Extrinsic Parameters]().
+The extrinsic calibration's matrix between the different sensors with respect to the IMU, can be found via [Extrinsic Parameters](https://github.com/alonsollorente/AuroraDataset/blob/main/calibration_aurora/calibration_aurora.txt).
 
 - Recorded topics:
   - GNSS data (nav_msgs/Odometry): ```/gnss_pose```
@@ -45,8 +45,8 @@ The extrinsic calibration's matrix between the different sensors with respect to
      - Right camear info _(sensor_msgs/CameraInfo)_: ```/zed2i/zed_node/right/camera_info```
   - IMU: ```/IMU02/imu/data```
  
-### 1.2 Dataset 1: 191
-**Brief**: The XXX dataset is recorded around xxxx.
+### 1.2 Dataset 1: 1689062708_BerlinData
+**Brief**: The 1689062708_BerlinData dataset is recorded around the west of Berlin.
 
 **General information**:
 | Date of Recording | Start Time (UTC) | End Time (UTC) | Total Size | Sensors | Download |
@@ -57,6 +57,10 @@ The extrinsic calibration's matrix between the different sensors with respect to
 
 ## 2. Useful scripts
 ### 2.1 Extract GNSS path
+Given the .bag file, plot the 3D GNSS path.
+
+. Build:
+
 
 ## 3. Acknowledgment
 
