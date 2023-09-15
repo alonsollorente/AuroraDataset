@@ -27,7 +27,7 @@ The data collection platform used for the Berlin dataset, is equipped with the f
 - [ZED 2i Stereocamera](https://www.stereolabs.com/assets/datasheets/zed-2i-datasheet-feb2022.pdf): 2x (2208x1242) @15fps, 2x (1920x1080) @30fps, 2x (1280x720) @60fps, 2x (662x376) @100fps
 - 3x GNSS antennas ([navXperience 3G+C](https://navxperience.com/?portfolio=3gc-maritime))
 
-<img src="img/sensor_setup_aurora.png" width="945" height="700">
+     <img src="img/aurora_sensor_setup.PNG" width="745" height="380">
 
 ### Extrinsic parameters and ROSBAG general information
 The extrinsic calibration's matrix between the different sensors with respect to the IMU, can be found via [Extrinsic Parameters](https://github.com/alonsollorente/AuroraDataset/blob/main/calibration_aurora/calibration_aurora.txt).
