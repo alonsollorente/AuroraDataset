@@ -51,7 +51,7 @@ The extrinsic calibration's matrix between the different sensors with respect to
 **General information**:
 | Date of Recording | Start Time (UTC) | End Time (UTC) | Total Size | Sensors | Download |
 | ----------------- | ----------------- | --------------- | ---------- | ------- | -------- |
-| 2023-07-11        | 10:05:08 GMT+0200        | 10:31:13 GMT+0200        | 67.5 GB     | GNSS/3xLiDAR/IMU/Stereocamera       | [Download](link) |
+| 2023-07-11        | 10:05:08 GMT+0200        | 10:31:13 GMT+0200        | 22.7 GB     | GNSS/3xLiDAR/IMU/Stereocamera       | [Download](link) |
 
 <img src="img/dataset1_figure1.PNG" width="945" height="500">
 
