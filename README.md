@@ -60,9 +60,19 @@ The extrinsic calibration's matrix between the different sensors with respect to
 Given the .bag file, plot the 3D GNSS path.
 
 . Build:
-
+```bash
+  cd ~/catkin_ws/src
+  git clone https://github.com/alonsollorente/AuroraDataset
+  cd ../
+  catkin_make
+  source ~/catkin_ws/devel/setup.bash
+  ```
+- Use
+   - gnss_plot.py
+     ```
+     python3 gnss_plot.py
+     ```
 
 ## 3. Acknowledgment
 
-Thanks to my cousin
 
