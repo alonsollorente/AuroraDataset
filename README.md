@@ -44,15 +44,19 @@ The extrinsic calibration's matrix between the different sensors with respect to
   - IMU: ```/IMU02/imu/data```
  
 ### 1.2 Dataset 1: 191
-**Brief**: The XXX dataset is recorded aroun xxxx.
+**Brief**: The XXX dataset is recorded around xxxx.
 
 **General information**:
 | Date of Recording | Start Time (UTC) | End Time (UTC) | Total Size | Sensors | Download |
 | ----------------- | ----------------- | --------------- | ---------- | ------- | -------- |
 | 2023-07-11        | 08:00 AM          | 08:30 AM        | 67.5 GB     | GNSS/3xLiDAR/IMU/Stereocamera       | [Download](link) |
 
+<img src="img/dataset1_figure1.PNG" width="945" height="500">
 
-## 2. Acknowledgment
+## 2. Useful scripts
+### 2.1 Extract GNSS path
+
+## 3. Acknowledgment
 
 Thanks to my cousin
 
