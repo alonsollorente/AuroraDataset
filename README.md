@@ -10,12 +10,12 @@ Keywords: HD mapping, localization, GNSS, Berlin
 ### Contact Authors:
 - [Daniel Medina](https://scholar.google.com/citations?user=8Yd99BcAAAAJ&hl=es&oi=ao)
 - [Alonso Llorente](https://github.com/alonsollorente)
-- [Lukas Hösch]()
-- [Iulian Filip]()
+- [Lukas Hösch](https://linkedin.com/in/lukas-hösch-ab8771241)
+- [Iulian Filip](https://linkedin.com/in/iulianfilip)
 
 _All authors belong to the [Navigation Systems](https://www.dlr.de/kn/desktopdefault.aspx/tabid-2204/admin-1/) department from the [Insitute of Communication and Navigation](https://www.dlr.de/kn/desktopdefault.aspx/tabid-17684/) at the German Aerospace Center ([DLR](https://www.dlr.de/de))_
 ### Related papers:
-- Hösch Lukas, Llorente Alonso, Xiangdong An, Juan Pedro Llerena and Daniel Medina, High Definition Mapping for Inland Waterways: Techniques, Challenges and Prospects, ITSC 2023, Bilbao, Spain. [see paper](https://github.com/alonsollorente/AuroraDataset/blob/main/papers/2023_itsc_mapping_inlandwaterways.pdf)
+- Hösch Lukas, Alonso Llorente, Xiangdong An, Juan Pedro Llerena and Daniel Medina, High Definition Mapping for Inland Waterways: Techniques, Challenges and Prospects, ITSC 2023, Bilbao, Spain. [see paper](https://github.com/alonsollorente/AuroraDataset/blob/main/papers/2023_itsc_mapping_inlandwaterways.pdf)
 
 ## 1. Berlin dataset
 ### 1.1 Sensor setup
