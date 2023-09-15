@@ -27,6 +27,8 @@ The data collection platform used for the Berlin dataset, is equipped with the f
 - [ZED 2i Stereocamera](https://www.stereolabs.com/assets/datasheets/zed-2i-datasheet-feb2022.pdf): 2x (2208x1242) @15fps, 2x (1920x1080) @30fps, 2x (1280x720) @60fps, 2x (662x376) @100fps
 - 3x GNSS antennas ([navXperience 3G+C](https://navxperience.com/?portfolio=3gc-maritime))
 
+<img src="img/sensor_setup_aurora.PNG" width="945" height="700">
+
 ### Extrinsic parameters and ROSBAG general information
 The extrinsic calibration's matrix between the different sensors with respect to the IMU, can be found via [Extrinsic Parameters]().
 
@@ -49,7 +51,7 @@ The extrinsic calibration's matrix between the different sensors with respect to
 **General information**:
 | Date of Recording | Start Time (UTC) | End Time (UTC) | Total Size | Sensors | Download |
 | ----------------- | ----------------- | --------------- | ---------- | ------- | -------- |
-| 2023-07-11        | 08:00 AM          | 08:30 AM        | 67.5 GB     | GNSS/3xLiDAR/IMU/Stereocamera       | [Download](link) |
+| 2023-07-11        | 10:05:08 GMT+0200        | 10:31:13 GMT+0200        | 67.5 GB     | GNSS/3xLiDAR/IMU/Stereocamera       | [Download](link) |
 
 <img src="img/dataset1_figure1.PNG" width="945" height="500">
 
