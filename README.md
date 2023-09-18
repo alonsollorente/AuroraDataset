@@ -53,7 +53,7 @@ The extrinsic calibration's matrix between the different sensors with respect to
 | ----------------- | ----------------- | --------------- | ---------- | ------- | -------- |
 | 2023-07-11        | 10:05:08 GMT+0200        | 10:31:13 GMT+0200        | 22.7 GB     | GNSS/3xLiDAR/IMU/Stereocamera       | [Download](link) |
 
-<img src="img/dataset1_figure2.PNG" width="945" height="500">
+<img src="img/dataset1_figure2.png" width="945" height="500">
 
 ## 2. Useful scripts
 ### 2.1 Extract GNSS path
