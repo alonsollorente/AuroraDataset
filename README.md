@@ -43,7 +43,7 @@ The extrinsic calibration's matrix between the different sensors with respect to
      - Odom _(nav_msgs/Odometry)_: ```/zed2i/zed_node/odom```
      - Left camera info _(sensor_msgs/CameraInfo)_: ```/zed2i/zed_node/left/camera_info```
      - Right camear info _(sensor_msgs/CameraInfo)_: ```/zed2i/zed_node/right/camera_info```
-  - IMU: ```/IMU02/imu/data```
+  - IMU: ```/IMU_02/imu/data```
  
 ### 1.2 Dataset 1: 1689062708_BerlinData
 **Brief**: The 1689062708_BerlinData dataset is recorded around the west of Berlin.
