@@ -8,8 +8,8 @@ With the volume of freight traffic increasing over the past few years, road- and
 Keywords: HD mapping, localization, GNSS, Berlin
 
 ### Contact Authors:
-- [Daniel Medina](https://scholar.google.com/citations?user=8Yd99BcAAAAJ&hl=es&oi=ao)
 - [Alonso Llorente](https://www.researchgate.net/profile/Alonso-Llorente)
+- [Daniel Medina](https://scholar.google.com/citations?user=8Yd99BcAAAAJ&hl=es&oi=ao)
 - [Lukas Hösch](https://linkedin.com/in/lukas-hösch-ab8771241)
 - [Iulian Filip](https://linkedin.com/in/iulianfilip)
 
