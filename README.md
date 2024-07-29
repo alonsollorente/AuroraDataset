@@ -17,9 +17,9 @@ _All authors belong to the [Nautical Systems](https://www.dlr.de/kn/desktopdefau
 ### Related papers:
 - Hösch Lukas, Alonso Llorente, Xiangdong An, Juan Pedro Llerena and Daniel Medina, High Definition Mapping for Inland Waterways: Techniques, Challenges and Prospects, ITSC 2023, Bilbao, Spain. [see paper](https://github.com/alonsollorente/AuroraDataset/blob/main/papers/2023_itsc_mapping_inlandwaterways.pdf)
 
-## 1. Berlin dataset
+## 1. Dataset 1: BERLIN_2023_07
 ### 1.1 Sensor setup
-The data collection platform used for the Berlin dataset, is equipped with the following sensors:
+The data collection platform used for the BERLIN_2023_07, is equipped with the following sensors:
 - [Velodyne VLP-32c LiDAR](https://icave2.cse.buffalo.edu/resources/sensor-modeling/VLP32CManual.pdf): 200m measurement range, 360º HFOV, 40º VFOV, 10Hz scanning rate
 - [Velodyne VLP-16 LiDAR](https://velodynelidar.com/wp-content/uploads/2019/12/63-9243-Rev-E-VLP-16-User-Manual.pdf): 100m measurement range, 360º HFOV, 30º VFOV, 10 Hz scanning rate
 - [SICK MRS6000](https://www.sick.com/my/en/lidar-sensors/3d-lidar-sensors/mrs6000/c/g448151) LiDAR: 200m measurement range, 120º HFOV, 15º VFOV, 10Hz scanning rate
@@ -55,8 +55,8 @@ The extrinsic calibration's matrix between the different sensors with respect to
 
 <img src="img/dataset1_figure2.png" width="945" height="500">
 
-## 2. Useful scripts
-### 2.1 Extract GNSS path
+## 1.3 Useful scripts
+### 1.3.1 Extract GNSS path
 Given the .bag file, plot the 3D GNSS path.
 
 . Build:
@@ -73,6 +73,21 @@ Given the .bag file, plot the 3D GNSS path.
      python3 gnss_plot.py
      ```
 
-## 3. Acknowledgment
+## 2. Dataset 2: BERLIN_2023_11
+### 2.1 Sensor setup
+The data collection platform used for the BERLIN_2023_11, is equipped with the following sensors:
+- [Velodyne VLP-32c LiDAR](https://icave2.cse.buffalo.edu/resources/sensor-modeling/VLP32CManual.pdf): 200m measurement range, 360º HFOV, 40º VFOV, 10Hz scanning rate
+- [Velodyne VLP-16 LiDAR](https://velodynelidar.com/wp-content/uploads/2019/12/63-9243-Rev-E-VLP-16-User-Manual.pdf): 100m measurement range, 360º HFOV, 30º VFOV, 10 Hz scanning rate
+- [SICK MRS6000](https://www.sick.com/my/en/lidar-sensors/3d-lidar-sensors/mrs6000/c/g448151) LiDAR: 200m measurement range, 120º HFOV, 15º VFOV, 10Hz scanning rate
+- [Ouster OS0](https://www.sick.com/my/en/lidar-sensors/3d-lidar-sensors/mrs6000/c/g448151) LiDAR: 200m measurement range, 120º HFOV, 15º VFOV, 10Hz scanning rate
+- [XSENS MTi 680G-SK IMU](https://www.xsens.com/hubfs/Downloads/Leaflets/MTi-680G.pdf): 100 Hz scanning update
+- [ZED 2i Stereocamera](https://www.stereolabs.com/assets/datasheets/zed-2i-datasheet-feb2022.pdf): 2x (2208x1242) @15fps, 2x (1920x1080) @30fps, 2x (1280x720) @60fps, 2x (662x376) @100fps
+- 4x GNSS antennas ([navXperience 3G+C](https://navxperience.com/?portfolio=3gc-maritime))
+     - High-budget receivers:
+          - 3x [Geodetic JAVAD Triumph](https://download.javad.com/sheets/TRIUMPH-4X_Datasheet.pdf)
+          - 1x [JAVAD Delta](https://download.javad.com/sheets/Delta_Overall_Datasheet.pdf)
+     - Low-budget receivers:
+          - 4x [uBlox](https://content.u-blox.com/sites/default/files/products/documents/u-blox8-M8_ReceiverDescrProtSpec_UBX-13003221.pdf)
 
+     <img src="img/aurora_sensor_setup.PNG" width="745" height="380">
 
