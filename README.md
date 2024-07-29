@@ -9,7 +9,7 @@ Keywords: HD mapping, localization, GNSS, Berlin
 
 ### Contact Authors:
 - [Daniel Medina](https://scholar.google.com/citations?user=8Yd99BcAAAAJ&hl=es&oi=ao)
-- [Alonso Llorente](https://github.com/alonsollorente)
+- [Alonso Llorente](https://www.researchgate.net/profile/Alonso-Llorente)
 - [Lukas Hösch](https://linkedin.com/in/lukas-hösch-ab8771241)
 - [Iulian Filip](https://linkedin.com/in/iulianfilip)
 
