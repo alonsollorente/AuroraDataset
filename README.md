@@ -17,7 +17,7 @@ _All authors belong to the [Nautical Systems](https://www.dlr.de/kn/desktopdefau
 ### Related papers:
 - Hösch Lukas, Alonso Llorente, Xiangdong An, Juan Pedro Llerena and Daniel Medina, High Definition Mapping for Inland Waterways: Techniques, Challenges and Prospects, ITSC 2023, Bilbao, Spain. [see paper](https://github.com/alonsollorente/AuroraDataset/blob/main/papers/2023_itsc_mapping_inlandwaterways.pdf)
 
-## 1. Dataset 1: BERLIN_2023_07
+## 1. BERLIN_2023_07
 ### 1.1 Sensor setup
 The data collection platform used for the BERLIN_2023_07, is equipped with the following sensors:
 - [Velodyne VLP-32c LiDAR](https://icave2.cse.buffalo.edu/resources/sensor-modeling/VLP32CManual.pdf): 200m measurement range, 360º HFOV, 40º VFOV, 10Hz scanning rate
@@ -73,7 +73,7 @@ Given the .bag file, plot the 3D GNSS path.
      python3 gnss_plot.py
      ```
 
-## 2. Dataset 2: BERLIN_2023_11
+## 2. BERLIN_2023_11
 ### 2.1 Sensor setup
 The data collection platform used for the BERLIN_2023_11, is equipped with the following sensors:
 - [Velodyne VLP-32c LiDAR](https://icave2.cse.buffalo.edu/resources/sensor-modeling/VLP32CManual.pdf): 200m measurement range, 360º HFOV, 40º VFOV, 10Hz scanning rate
@@ -87,7 +87,31 @@ The data collection platform used for the BERLIN_2023_11, is equipped with the f
           - 3x [Geodetic JAVAD Triumph](https://download.javad.com/sheets/TRIUMPH-4X_Datasheet.pdf)
           - 1x [JAVAD Delta](https://download.javad.com/sheets/Delta_Overall_Datasheet.pdf)
      - Low-budget receivers:
-          - 4x [uBlox](https://content.u-blox.com/sites/default/files/products/documents/u-blox8-M8_ReceiverDescrProtSpec_UBX-13003221.pdf)
+          - 4x [uBlox M8](https://content.u-blox.com/sites/default/files/products/documents/u-blox8-M8_ReceiverDescrProtSpec_UBX-13003221.pdf)
 
-     <img src="img/aurora_sensor_setup.PNG" width="745" height="380">
+<img src="img/aurora_sensor_setup-BERLIN202311.png" width="800" height="950">
+
+### 2.2 Dataset 1: 231107_AURORA_BerlinData
+**Brief**: The 231107_AURORA_BerlinData dataset takes a double turn around the Westhafen Island in Berlin.
+
+- Recorded topics:
+  - uBlox M8 data:
+       - sensor_msgs/NavSatFix: ```/ublox_x/fix```
+       - geometry_msgs/TwistWithCovarianceStamped: ```/ublox_x/fix_velocity```
+  - VLP-32c (sensor_msgs/PointCloud2): ```/VLP32/velodyne_points```
+  - VLP-16 (sensor_msgs/PointCloud2): ```/VLP16/velodyne_points```
+  - Zed2i Stereocamera:
+     - Left camera image _(sensor_msgs/CompressedImage)_: ```/zed2i/zed_node/left/image_rect_color/compressed```
+     - Right camera image _(sensor_msgs/CompressedImage)_: ```/zed2i/zed_node/right/image_rect_color/compressed```
+     - Left camera info _(sensor_msgs/CameraInfo)_: ```/zed2i/zed_node/left/camera_info```
+     - Right camear info _(sensor_msgs/CameraInfo)_: ```/zed2i/zed_node/right/camera_info```
+  - IMU: ```/IMU_01/imu/data```
+
+**General information**:
+| Date of Recording | Start Time (UTC) | End Time (UTC) | Total Size | Sensors | Download |
+| ----------------- | ----------------- | --------------- | ---------- | ------- | -------- |
+| 2023-11-08        | 15:35:20 GMT+0200        | 15:56:59 GMT+0200        | 14.9 GB     | 3x uBlox/2x LiDAR/x1 IMU/x1 Stereocamera       | [Download](https://forms.gle/7URude1NQdmrTdTJ9) |
+
+<img src="img/westhafen_island_path.jpg" width="945" height="500">
+
 
